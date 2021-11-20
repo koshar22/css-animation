@@ -1,0 +1,305 @@
+@keyframes fiza {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 1200px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 1200px;
+        top: 75vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 0px;
+        top: 75vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+*{
+    background-color: #aaa;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: fiza;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+
+
+
+@keyframes example1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 130px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 1090px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 1090px;
+        top: 48vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 130px;
+        top: 48vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 130px;
+        top: 0px;
+    }
+}
+
+.box1 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    /* animation-direction: reverse; */
+}
+
+
+
+@keyframes example2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 250px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 950px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 950px;
+        top: 20vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 250px;
+        top: 20vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 250px;
+        top: 0px;
+    }
+}
+
+.box2 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes example3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 1200px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 1200px;
+        top: 75vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 0px;
+        top: 75vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box3 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes example4 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 1200px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 1200px;
+        top: 75vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 0px;
+        top: 75vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box4 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: example4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes example5 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    0% {
+        background-color: #bbb;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        left: 1200px;
+        top: 0px;
+    }
+    50% {
+        background-color: yellow;
+        left: 1200px;
+        top: 75vh;
+    }
+    75% {
+        background-color: chartreuse;
+        left: 0px;
+        top: 75vh;
+    }
+    100% {
+        background-color: crimson;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box5 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #f00;
+    border-radius: 50%;
+    border-top-color: black;
+    background-color: #bbb;
+    animation-name: example5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+}
+
+
